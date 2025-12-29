@@ -69,3 +69,34 @@ footer {
   color: #94a3b8;
 }
 
+<style>
+.exercise {
+  background:#f4f4f4;
+  padding:15px;
+  margin:20px 0;
+  border-radius:10px;
+  font-size:14px;
+}
+.exercise button {
+  margin-top:10px;
+  padding:8px 12px;
+  background:#2196f3;
+  color:#fff;
+  border:none;
+  border-radius:6px;
+}
+.answer {
+  display:none;
+  background:#fff;
+  margin-top:10px;
+  padding:10px;
+  border-radius:8px;
+}
+</style>
+
+<script>
+function toggle(id){
+  let el=document.getElementById(id);
+  el.style.display = el.style.display==="none"?"block":"none";
+}
+</script>
