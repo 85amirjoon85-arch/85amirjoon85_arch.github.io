@@ -1,70 +1,51 @@
+
 <!DOCTYPE html>
 <html lang="fa">
 <head>
-    <link href="https://fonts.googleapis.com/css2?family=Vazirmatn&display=swap" rel="stylesheet">
-<link rel="stylesheet" href="Style.css">
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>درس ۵ | آرایه</title>
+<link rel="stylesheet" href="style.css">
 
-    <meta charset="UTF-8">
-    <title>درس ۵ - آرایه‌ها در C++</title>
-
-    <link href="https://fonts.googleapis.com/css2?family=Vazirmatn:wght@300;400;700&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="style.css">
+<link rel="stylesheet"
+href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.9.0/styles/github-dark.min.css">
+<script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.9.0/highlight.min.js"></script>
+<script>hljs.highlightAll();</script>
 </head>
+
 <body>
+<header>درس ۵: آرایه</header>
 
-<nav>
-    <a href="index.html">خانه</a>
-    <a href="lessons.html">درس‌ها</a>
-</nav>
-
-<h1>درس ۵: آرایه‌ها (Arrays)</h1>
+<div class="container">
+<div class="card">
 
 <p>
-آرایه مجموعه‌ای از متغیرها با نوع یکسان است که با یک نام ذخیره می‌شوند.
-برای دسترسی به هر عضو از اندیس استفاده می‌کنیم (از 0 شروع می‌شود).
+آرایه برای ذخیره چند مقدار هم‌نوع استفاده می‌شود.
 </p>
 
-<h2>🔹 تعریف آرایه</h2>
+<pre><code class="language-cpp">
+#include <iostream>
+using namespace std;
 
-<pre>
-;int a[5]
+int main() {
+    int a[5]={10,20,30,40,50};
 
-</pre>
-
-<p>
-آرایه بالا می‌تواند ۵ عدد صحیح را ذخیره کند.
-</p>
-
-<h2>🔹 مقداردهی آرایه</h2>
-
-<pre>
-;int a[5] = {1, 2, 3, 4, 5}
-</pre>
-
-<h2>🔹 دسترسی به عناصر آرایه</h2>
-
-<pre>
-;cout << a[0]   // اولین عنصر
-;cout << a[4]   // آخرین عنصر
-</pre>
-
-<h2>🔹 مثال کامل</h2>
-
-<pre>
-&lt;include&lt;iostream#
-;using namespace std
-
-() int main
-}
-    ;int a[5] = {10, 20, 30, 40, 50}
-
-    }for (int i = 0; i < 5; i++) 
-        ;cout << a[i] << endl
-    {
+    for(int i=0;i<5;i++)
+        cout << a[i] << endl;
 
     return 0;
-{
-</pre>
+}
+</code></pre>
 
+<p>
+تمام عناصر آرایه چاپ می‌شوند.
+</p>
+
+<a href="lessons.html">⬅ بازگشت</a>
+
+</div>
+</div>
+
+<footer>© AmirCpp</footer>
 </body>
 </html>
