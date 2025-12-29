@@ -73,3 +73,16 @@ code, pre {
   text-decoration: none;
   margin-left: 10px;
 }
+body {
+  font-family: Vazirmatn, Tahoma, sans-serif;
+  background-color: #f8fafc;
+  color: #0f172a;
+  margin: 0;
+}
+
+.container {
+  max-width: 900px;
+  margin: auto;
+  padding: 20px;
+  line-height: 2;
+}
