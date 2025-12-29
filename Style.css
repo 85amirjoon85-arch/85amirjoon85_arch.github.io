@@ -39,7 +39,7 @@ pre {
     padding: 15px;
     border-radius: 12px;
     overflow-x: auto;
-    font-size: 15px;
+    font-size: 16px;
     line-height: 1.6;
     margin-top: 15px;
 }
@@ -59,7 +59,8 @@ code, pre {
   padding: 15px;
   border-radius: 10px;
   overflow-x: auto;
-  font-size: 14px;
+  font-size: 18px;
+    line_height:1.7;
 }
 
 .navbar {
